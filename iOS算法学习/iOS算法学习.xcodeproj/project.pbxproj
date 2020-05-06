@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E71E8460245A6A4500E5C9C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E71E845F245A6A4500E5C9C7 /* main.m */; };
 		E71E8473245A6CB000E5C9C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E71E8472245A6CB000E5C9C7 /* main.m */; };
+		E7B7A49E2462BEBF00CE88DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B7A49D2462BEBF00CE88DB /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		E7B7A4992462BEBF00CE88DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,8 @@
 		E71E845F245A6A4500E5C9C7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E71E8470245A6CB000E5C9C7 /* 两数之和为固定值返回下标 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "两数之和为固定值返回下标"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71E8472245A6CB000E5C9C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7B7A49B2462BEBF00CE88DB /* 请找出不含有重复字符的最长子串长度 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "请找出不含有重复字符的最长子串长度"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B7A49D2462BEBF00CE88DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7B7A4982462BEBF00CE88DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +81,7 @@
 			children = (
 				E71E8456245A5D5900E5C9C7 /* iOS算法学习 */,
 				E71E8471245A6CB000E5C9C7 /* 两数之和为固定值返回下标 */,
+				E7B7A49C2462BEBF00CE88DB /* 请找出不含有重复字符的最长子串长度 */,
 				E71E8455245A5D5900E5C9C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +91,7 @@
 			children = (
 				E71E8454245A5D5900E5C9C7 /* iOS算法学习 */,
 				E71E8470245A6CB000E5C9C7 /* 两数之和为固定值返回下标 */,
+				E7B7A49B2462BEBF00CE88DB /* 请找出不含有重复字符的最长子串长度 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +118,14 @@
 				E71E8472245A6CB000E5C9C7 /* main.m */,
 			);
 			path = "两数之和为固定值返回下标";
+			sourceTree = "<group>";
+		};
+		E7B7A49C2462BEBF00CE88DB /* 请找出不含有重复字符的最长子串长度 */ = {
+			isa = PBXGroup;
+			children = (
+				E7B7A49D2462BEBF00CE88DB /* main.m */,
+			);
+			path = "请找出不含有重复字符的最长子串长度";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +165,23 @@
 			productReference = E71E8470245A6CB000E5C9C7 /* 两数之和为固定值返回下标 */;
 			productType = "com.apple.product-type.tool";
 		};
+		E7B7A49A2462BEBF00CE88DB /* 请找出不含有重复字符的最长子串长度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B7A4A12462BEBF00CE88DB /* Build configuration list for PBXNativeTarget "请找出不含有重复字符的最长子串长度" */;
+			buildPhases = (
+				E7B7A4972462BEBF00CE88DB /* Sources */,
+				E7B7A4982462BEBF00CE88DB /* Frameworks */,
+				E7B7A4992462BEBF00CE88DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "请找出不含有重复字符的最长子串长度";
+			productName = "请找出不含有重复字符的最长子串长度";
+			productReference = E7B7A49B2462BEBF00CE88DB /* 请找出不含有重复字符的最长子串长度 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +195,9 @@
 						CreatedOnToolsVersion = 11.4;
 					};
 					E71E846F245A6CB000E5C9C7 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					E7B7A49A2462BEBF00CE88DB = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
@@ -168,6 +217,7 @@
 			targets = (
 				E71E8453245A5D5900E5C9C7 /* iOS算法学习 */,
 				E71E846F245A6CB000E5C9C7 /* 两数之和为固定值返回下标 */,
+				E7B7A49A2462BEBF00CE88DB /* 请找出不含有重复字符的最长子串长度 */,
 			);
 		};
 /* End PBXProject section */
@@ -186,6 +236,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E71E8473245A6CB000E5C9C7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B7A4972462BEBF00CE88DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B7A49E2462BEBF00CE88DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +399,26 @@
 			};
 			name = Release;
 		};
+		E7B7A49F2462BEBF00CE88DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XQSQW7E7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7B7A4A02462BEBF00CE88DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XQSQW7E7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -367,6 +445,15 @@
 			buildConfigurations = (
 				E71E8474245A6CB000E5C9C7 /* Debug */,
 				E71E8475245A6CB000E5C9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B7A4A12462BEBF00CE88DB /* Build configuration list for PBXNativeTarget "请找出不含有重复字符的最长子串长度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B7A49F2462BEBF00CE88DB /* Debug */,
+				E7B7A4A02462BEBF00CE88DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

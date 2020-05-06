@@ -80,7 +80,7 @@ int main(int argc, const char * argv[]) {
         CFAbsoluteTime   StartTime1 = CFAbsoluteTimeGetCurrent();
         function2(arr,15);
         CFAbsoluteTime EndTime1 = CFAbsoluteTimeGetCurrent();
-        NSLog(@"function2执行时间为：----%f",EndTime1 - StartTime);
+        NSLog(@"function2执行时间为：----%f",EndTime1 - StartTime1);
 
     }
     return 0;
